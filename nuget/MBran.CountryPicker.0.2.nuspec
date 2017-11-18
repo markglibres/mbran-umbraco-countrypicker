@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>MBran.CountryPicker</id>
+        <version>0.2</version>
+        <title>MBran's Umbraco CountryPicker Data Type</title>
+        <authors>Mark Gil Libres</authors>
+        <owners>Mark Gil Libres</owners>
+        <licenseUrl>https://github.com/markglibres/mbran-umbraco-countrypicker/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/markglibres/mbran-umbraco-countrypicker</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>An Umbraco 7 data type that lets users select a country from a dropdown</description>
+        <copyright>Copyright 2017</copyright>
+        <tags>MBran Umbraco CountryPicker</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5.2">
+                <dependency id="UmbracoCms.Core" version="7.7.6" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\App_Plugins\MBran.CountryPicker\Controller\countryPicker.editor.js" target="content\App_Plugins\MBran.CountryPicker\Controller\countryPicker.editor.js" />
+        <file src="..\src\App_Plugins\MBran.CountryPicker\Css\countryPicker.css" target="content\App_Plugins\MBran.CountryPicker\Css\countryPicker.css" />
+        <file src="..\src\App_Plugins\MBran.CountryPicker\Js\countryPicker.resource.js" target="content\App_Plugins\MBran.CountryPicker\Js\countryPicker.resource.js" />
+        <file src="..\src\App_Plugins\MBran.CountryPicker\Views\countryPicker.editor.html" target="content\App_Plugins\MBran.CountryPicker\Views\countryPicker.editor.html" />
+        <file src="..\src\App_Plugins\MBran.CountryPicker\package.manifest" target="content\App_Plugins\MBran.CountryPicker\package.manifest" />
+        <file src="..\src\bin\Debug\MBran.Umbraco.CountryPicker.dll" target="lib\net452\MBran.CountryPicker.dll" />
+    </files>
+</package>
